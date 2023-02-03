@@ -64,6 +64,7 @@ function App() {
 
         //Sort final list alphabetically
         var t: Team;
+        var t1: Team;
         for (var x = 0; x < finalList.length; x++) {
             for (var y = 0; y < finalList.length - x - 1; y++) {
                 if (finalList[y].nhlTeamName > finalList[y + 1].nhlTeamName) {
